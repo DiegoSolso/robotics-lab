@@ -6,7 +6,7 @@ This repository contains three different control strategies to solve the *Visual
 
 The objective is to keep the vehicle centered on the red line by calculating the error between the image center and the centroid of the detected contour. Three control levels have been implemented:
 
-* **Proporcional.py:** Basic `P` control. Adjusts turning proportionally to the current error.
+* **proporcional.py:** Basic `P` control. Adjusts turning proportionally to the current error.
 * **PD.py:** `PD` control. Adds a derivative term to reduce oscillations and anticipate curves.
 * **PID.py:** `PID` control. Includes the integral term to correct accumulated error over time.
 
